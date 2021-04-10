@@ -1,0 +1,90 @@
+/* @font-face {
+  font-family: "angularicons";
+  style: normal;
+  weight: 400;
+  stretch: 100;
+  index: 1;
+  src: url(https://bootflat.github.io/angularicons/angularicons.woff);
+}
+
+@font-face {
+  font-family: "glyphicons-halflings-regular";
+  src: url(https://bootflat.github.io/fonts/glyphicons-halflings-regular.woff);
+} */
+
+.icon[data-icon]::before {
+  content: attr(data-icon);
+}
+
+.avatar-image {
+  /* border-radius: 50%; */
+  width: 84px;
+  height: 94px;
+  display: block;
+  background-image: url(../assets/dni-img.JPG);
+  background-position: center;
+  background-size: cover;
+  content: ' ';
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.name-holder {
+  font-size: 4rem
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.about .popover {
+  display: block;
+  position: relative;
+  max-width: initial;
+}
+
+.about .popover.bottom {
+  margin-top: initial;
+}
+
+.user-data {
+  margin-top: 10px;
+}
+
+.addon-fixture {
+  min-width: 11rem;
+}
+
+.sparse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.additional-knowledge {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.additional-knowledge > * {
+  flex-basis: 15%;
+}
+
+.image-icon {
+  max-width: 14px;
+  max-height: 14px;
+}
+
+.formation {
+  margin-top: 1rem;
+}
+
+.page-margin {
+  --margin: 4rem;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
+}
