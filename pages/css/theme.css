@@ -12,6 +12,13 @@
   src: url(https://bootflat.github.io/fonts/glyphicons-halflings-regular.woff);
 } */
 
+body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .icon[data-icon]::before {
   content: attr(data-icon);
 }
@@ -88,3 +95,55 @@
   margin-left: var(--margin);
   margin-right: var(--margin);
 }
+
+#github-ribbon {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 2rem;
+  right: 6rem;
+  transform: rotateZ(33.2deg);
+  z-index: 10000;
+}
+
+:root {
+  --background: #161b22;
+  --ribbon-op: 0.5;
+}
+
+#github-ribbon > *
+/*, #github-ribbon::after, #github-ribbon::before*/ {
+  opacity: var(--ribbon-op);
+  background-color: var(--background);
+  color: white;
+  display: block;
+}
+
+#github-ribbon a {
+  text-decoration: none;
+  color: white;
+}
+
+#github-ribbon > * {
+  position: relative;
+  width: 125rem;
+  padding: 1rem;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+/* #github-ribbon::after, #github-ribbon::before {
+  content: ', ';
+  width: 200px;
+  height: 60px;
+  display: block;
+}
+
+#github-ribbon::after {
+  transform: translateX(-162.2%) translateY(6rem);
+}
+
+#github-ribbon::before {
+  transform: translateX(-100%) translateY(6rem);
+} */

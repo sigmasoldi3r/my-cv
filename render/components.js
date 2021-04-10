@@ -1,3 +1,5 @@
+const html = require('./html');
+
 /**
  * Maps object as properties.
  * @param {*} obj
@@ -13,16 +15,15 @@ const mapToProps = obj => Object.keys(obj).map(k => `${k}="${obj[k]}"`).join(' '
 const createComponent =
   name =>
     (props = {}) =>
-      (str, ...p) =>
-        `<${name} ${mapToProps(props)}>${str.map((s, i) => p.length < i ? s + p[i] : s)
-        }</${name}>`;
+      (...args) =>
+        `<${name} ${mapToProps(props)}>${String.raw(...args)}</${name}>`;
 
 /**
  * Simple HTML tag with doctype.
  * @param {string} content
  * @returns {string}
  */
-const document = content => /*html*/`<!doctype html>
+const document = content => html`<!doctype html>
 <html>
   ${content}
 </html>

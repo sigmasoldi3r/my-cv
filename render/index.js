@@ -36,11 +36,12 @@ async function main() {
     path: `cv-Pablo-Blanco-Celdrán.pdf`,
     format: `A4`,
     margin: {
-      top: `20px`,
-      bottom: `40px`,
-      left: `20px`,
-      right: `20px`
-    }
+      top: `0px`,
+      bottom: `0px`,
+      left: `0px`,
+      right: `0px`
+    },
+    scale: 1.5
   });
   log(`Done! Closing browser...`);
   await browser.close();

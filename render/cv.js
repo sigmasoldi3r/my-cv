@@ -29,6 +29,13 @@ ${i === 0 ? '</div>' : '</li>'}
 const IconImage = url => html`<img class="image-icon" src="${url}" alt="${url}">`
 
 module.exports = document(html`
+  <div id="github-ribbon">
+    <span>
+      <a href="https://github.com/sigmasoldi3r/my-cv">
+        ¡Puedes ver el código fuente <br> de este currículum en mi github!
+      </a>
+    </span>
+  </div>
   <head>
     <title>Pablo Blanco Celdrán</title>
     <link rel="stylesheet" href="css/boot.big.css">
