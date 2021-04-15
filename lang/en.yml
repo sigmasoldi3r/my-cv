@@ -1,0 +1,145 @@
+lang: en
+definition:
+  misc:
+    source_notice: |
+      ¡Puedes ver el código fuente <br> de mi currículum en mi github!
+  author:
+    name: Pablo Blanco Celdrán
+    what: |
+      Desarrollador multiplataforma con tecnologías modernas como React.
+      Desarrollo con NodeJS, addons nativos y estándares modernos como C++14.
+      Siempre con ganas de aprender, racional y curioso.
+    how: |
+      Me gusta hacer las cosas bien y pongo el esfuerzo necesario para
+      conseguirlo.
+      Me relaciono bien con personas muy diferentes y me adapto fácilmente
+      a los cambios y situaciones. Capaz de organizar y liderar proyectos.
+    tags:
+      - icon: car
+        label: Coche propio
+      - icon: volume-up
+        label: Inglés fluido
+      - icon: list
+        label: Responsable
+        style: success
+      - icon: bolt
+        label: Emprendedor
+        style: success
+      - icon: fist-raised
+        label: Entusiasta
+        style: success
+      - icon: plus
+        label: Positivo
+        style: success
+      - icon: wrench
+        label: Trabajo en equipo
+        style: info
+    data:
+      - icon: home
+        title: Domicilio
+        text: C/ Dotze de febrer, 29 Vilanova del Vallès (Barcelona)
+      - icon: phone
+        title: Teléfono
+        text: 693210403
+      - icon: envelope
+        title: Correo
+        text: pablobc.1995@gmail.com
+      - icon: github
+        base: fab
+        title: Github
+        text: https://github.com/sigmasoldi3r
+  titles:
+    formation: Formación
+    additional: Conocimientos adicionales
+    experience: Experiencia laboral
+  formation:
+    tokio:
+      title: Curso de desarrollo de videojuegos
+      date: 2020
+      mark: Cursando
+      loc: Tokio School
+    granollers:
+      title: Grado superior de desarrollo de aplicaciones multiplataforma
+      date: 2015-2017
+      mark: Matrícula de honor
+      loc: Ins Carles Vallbona, Granollers
+    vilanova:
+      title: Bachillerato tecnológico
+      date: 2013-2015
+      mark: Notable
+      loc: Ins Carles Vallbona, Granollers
+  work:
+    kantar:
+      info:
+        time: 2020
+        title: Kantar Worldpanel - St. Cugat
+      text: |
+        Desarrollo full stack con ReactJS, .NET Core y MVC.
+        Trabajo con Azure functions y Azure DevOps.
+        Servidores de ejecución remota de scripts en R.
+        Scripts de procesado de datos con ClojureScript.
+    catalog_player:
+      info:
+        time: 2018
+        title: Catalog Player - Granollers
+      text: |
+        Desarrollador full stack con tecnologías híbridas, sistemas
+        integrados, mantenimiento de servidores de bases de datos, dirección
+        de equipo colaborando con Sage UK, desarrollo front end con ReactJS.
+    mobivention:
+      info:
+        time: 2017
+        title: Mobivention - Köln (Erasmus)
+      text: |
+        Desarrollo de aplicaciones híbridas para movil, con Cordova e Ionic.
+        Desarrollo de servidores NodeJS para consultar APIs de puntuación de
+        appstores móviles.
+    veronica:
+      info:
+        time: 2016
+        title: Verónica, gestión de suministros eléctricos
+      text: |
+        Desarrollo e implantación de software de gestión empresarial (ERP).
+    linde_wiemann:
+      info:
+        time: 2014
+        title: Linde & Wiemann - La Garriga
+      text: |
+        Ayudante de técnico de mantenimiento. Reparación de sensores,
+        sistemas de control eléctricos & hidro-neumáticos.
+  about:
+    title: Sobre mí
+    hobbies:
+      title: Aficiones
+      p:
+        first: |
+          Me gusta hacer senderismo, jugar a videojuegos con mis amigos, o
+          disfrutar de una buena historia en un jugador. Me encanta ver
+          <i>anime</i> y el dibujo creativo.
+        second: |
+          Otra de mis aficiones es la impresión 3D y la
+          electrónica, me divierto con pequeños proyectos, programando placas de
+          la família Arduino o ESP.
+        third: |
+          Disfruto mucho en el campo de diseño de lenguajes de programación.
+          Siempre encuentro emocionante aprender uno nuevo, tal es así que una vez
+          diseñé uno propio, llamado {{charon_logo}} Charon (Lo
+          podéis encontrar en <a href="{{charon_url}}">
+          mi GitHub</a>).
+          También he contribuido en algunos proyectos open-source como
+          <a href="{{antlr_url}}">
+            AntLR4.
+          </a>
+    languages:
+      title: Idiomas
+      text: |
+        <b>Catalán</b> y <b>Castellano nativos</b>. <b>Inglés fluido</b>.
+        ¡Ahora me estoy atreviendo con el Japonés y el Alemán!
+    other_tools:
+      title: Otras herramientas
+      engines: |
+        Estoy familiarizado con motóres gráficos como Defold, Unreal Engine 4,
+        Godot y Löve2D.
+      software: |
+        También he utilizado programas de dibujo como Aseprite y Krita o
+        programas tipo CAD como AutoCAD y SolidWorks.

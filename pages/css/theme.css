@@ -96,54 +96,50 @@ body {
   margin-right: var(--margin);
 }
 
+:root {
+  --background: #b40000;
+  --ribbon-op: 0.3;
+  --text-color: white;
+}
+
 #github-ribbon {
   display: block;
   position: absolute;
   width: 0;
   height: 0;
-  top: 2rem;
-  right: 6rem;
-  transform: rotateZ(33.2deg);
+  bottom: 15rem;
+  right: 20rem;
   z-index: 10000;
 }
 
-:root {
-  --background: #161b22;
-  --ribbon-op: 0.5;
+#github-ribbon > *::before {
+  content: ' ';
+  height: 42px;
+  width: 42px;
+  top: 9px;
+  left: -21px;
+  transform: rotateZ(45deg);
+  background-color: var(--background);
+  display: block;
+  position: absolute;
+  z-index: -1;
 }
 
-#github-ribbon > *
-/*, #github-ribbon::after, #github-ribbon::before*/ {
+#github-ribbon > * {
   opacity: var(--ribbon-op);
   background-color: var(--background);
-  color: white;
+  color: var(--text-color);
   display: block;
 }
 
 #github-ribbon a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 
 #github-ribbon > * {
   position: relative;
-  width: 125rem;
+  width: 25rem;
   padding: 1rem;
   text-align: center;
-  transform: translateX(-50%);
 }
-
-/* #github-ribbon::after, #github-ribbon::before {
-  content: ', ';
-  width: 200px;
-  height: 60px;
-  display: block;
-}
-
-#github-ribbon::after {
-  transform: translateX(-162.2%) translateY(6rem);
-}
-
-#github-ribbon::before {
-  transform: translateX(-100%) translateY(6rem);
-} */
