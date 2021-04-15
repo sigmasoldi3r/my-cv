@@ -7,7 +7,7 @@ definition:
     name: Pablo Blanco Celdrán
     what: |
       Cross-platform developer with modern technologies like React.
-      Development with NodeJS, native addons and modern standards like C ++ 14.
+      Development with NodeJS, native addons and modern standards like C++ 14.
       Always eager to learn, rational and curious.
     how: |
       I like to do things well and I put in the necessary effort to
@@ -18,7 +18,7 @@ definition:
       - icon: car
         label: Own car
       - icon: volume-up
-        label: fluent English
+        label: Fluent English
       - icon: list
         label: Responsible
         style: success
@@ -67,7 +67,7 @@ definition:
       title: Technological Baccalaureate
       date: 2013-2015
       mark: Notable
-      loc: Ins Carles Vallbona, Granollers
+      loc: Ins Vilanova del Vallès
   work:
     kantar:
       info:
@@ -135,7 +135,7 @@ definition:
       text: |
         <b>Native Catalan</b> and <b>Spanish</b>. <b>Fluent English</b>.
         <br>
-        Now I'm trying my hand at German and Japanese!
+        I'm Currently trying my hand at German and Japanese!
     other_tools:
       title: Other tools
       engines: |
