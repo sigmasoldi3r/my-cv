@@ -2,69 +2,69 @@ lang: en
 definition:
   misc:
     source_notice: |
-      ¡Puedes ver el código fuente <br> de mi currículum en mi github!
+      You can see my resume's <br> source code on my github!
   author:
     name: Pablo Blanco Celdrán
     what: |
-      Desarrollador multiplataforma con tecnologías modernas como React.
-      Desarrollo con NodeJS, addons nativos y estándares modernos como C++14.
-      Siempre con ganas de aprender, racional y curioso.
+      Cross-platform developer with modern technologies like React.
+      Development with NodeJS, native addons and modern standards like C ++ 14.
+      Always eager to learn, rational and curious.
     how: |
-      Me gusta hacer las cosas bien y pongo el esfuerzo necesario para
-      conseguirlo.
-      Me relaciono bien con personas muy diferentes y me adapto fácilmente
-      a los cambios y situaciones. Capaz de organizar y liderar proyectos.
+      I like to do things well and I put in the necessary effort to
+      to get it.
+      I get along well with very different people and I adapt easily
+      to changes and different situations. Able to organize and lead projects.
     tags:
       - icon: car
-        label: Coche propio
+        label: Own car
       - icon: volume-up
-        label: Inglés fluido
+        label: fluent English
       - icon: list
-        label: Responsable
+        label: Responsible
         style: success
       - icon: bolt
-        label: Emprendedor
+        label: Entrepreneur
         style: success
       - icon: fist-raised
-        label: Entusiasta
+        label: Enthusiast
         style: success
       - icon: plus
-        label: Positivo
+        label: Positive
         style: success
       - icon: wrench
-        label: Trabajo en equipo
+        label: Teamwork
         style: info
     data:
       - icon: home
-        title: Domicilio
-        text: C/ Dotze de febrer, 29 Vilanova del Vallès (Barcelona)
+        title: Address
+        text: C / Dotze de febrer, 29 Vilanova del Vallès (Barcelona)
       - icon: phone
-        title: Teléfono
+        title: Phone
         text: 693210403
       - icon: envelope
-        title: Correo
+        title: Mail
         text: pablobc.1995@gmail.com
       - icon: github
         base: fab
         title: Github
         text: https://github.com/sigmasoldi3r
   titles:
-    formation: Formación
-    additional: Conocimientos adicionales
-    experience: Experiencia laboral
+    formation: Formation
+    additional: Additional knowledge
+    experience: Work experience
   formation:
     tokio:
-      title: Curso de desarrollo de videojuegos
+      title: Videogame development course
       date: 2020
-      mark: Cursando
+      mark: Courses
       loc: Tokio School
     granollers:
-      title: Grado superior de desarrollo de aplicaciones multiplataforma
+      title: Higher degree of cross-platform application development
       date: 2015-2017
-      mark: Matrícula de honor
+      mark: With honours
       loc: Ins Carles Vallbona, Granollers
     vilanova:
-      title: Bachillerato tecnológico
+      title: Technological Baccalaureate
       date: 2013-2015
       mark: Notable
       loc: Ins Carles Vallbona, Granollers
@@ -74,72 +74,73 @@ definition:
         time: 2020
         title: Kantar Worldpanel - St. Cugat
       text: |
-        Desarrollo full stack con ReactJS, .NET Core y MVC.
-        Trabajo con Azure functions y Azure DevOps.
-        Servidores de ejecución remota de scripts en R.
-        Scripts de procesado de datos con ClojureScript.
+        Full stack development with ReactJS, .NET Core and MVC.
+        I work with Azure functions and Azure DevOps.
+        Servers for remote execution of scripts in R.
+        Data processing scripts with ClojureScript.
     catalog_player:
       info:
         time: 2018
         title: Catalog Player - Granollers
       text: |
-        Desarrollador full stack con tecnologías híbridas, sistemas
-        integrados, mantenimiento de servidores de bases de datos, dirección
-        de equipo colaborando con Sage UK, desarrollo front end con ReactJS.
+        Full stack developer with hybrid technologies, embedded systems,
+        database server maintenance, team management for a collaboration with
+        Sage UK, front end development with ReactJS.
     mobivention:
       info:
         time: 2017
         title: Mobivention - Köln (Erasmus)
       text: |
-        Desarrollo de aplicaciones híbridas para movil, con Cordova e Ionic.
-        Desarrollo de servidores NodeJS para consultar APIs de puntuación de
-        appstores móviles.
+        Development of hybrid applications for mobile platforms, with Cordova
+        and Ionic. Development of NodeJS servers to query scoring APIs from
+        different mobile appstores.
     veronica:
       info:
         time: 2016
-        title: Verónica, gestión de suministros eléctricos
+        title: Veronica, Electrical Supply Management
       text: |
-        Desarrollo e implantación de software de gestión empresarial (ERP).
+        Development and implementation of business management software (ERP),
+        in python. Database model design.
     linde_wiemann:
       info:
         time: 2014
         title: Linde & Wiemann - La Garriga
       text: |
-        Ayudante de técnico de mantenimiento. Reparación de sensores,
-        sistemas de control eléctricos & hidro-neumáticos.
+        Maintenance technician assistant. Sensor repair,
+        electric & hydro-pneumatic control systems maintenance.
   about:
-    title: Sobre mí
+    title: About me
     hobbies:
-      title: Aficiones
+      title: Hobbies
       p:
         first: |
-          Me gusta hacer senderismo, jugar a videojuegos con mis amigos, o
-          disfrutar de una buena historia en un jugador. Me encanta ver
-          <i>anime</i> y el dibujo creativo.
+          I like to go mountain-hiking, play video games with my friends, or
+          enjoy a good story in single player. I love watching
+          <i>anime</i> and creative drawing.
         second: |
-          Otra de mis aficiones es la impresión 3D y la
-          electrónica, me divierto con pequeños proyectos, programando placas de
-          la família Arduino o ESP.
+          Another of my hobbies is 3D printing and homemade electronics,
+          I enjoy doing small DIY projects, while programming
+          Arduino family boards or ESP ones.
         third: |
-          Disfruto mucho en el campo de diseño de lenguajes de programación.
-          Siempre encuentro emocionante aprender uno nuevo, tal es así que una vez
-          diseñé uno propio, llamado {{charon_logo}} Charon (Lo
-          podéis encontrar en <a href="{{charon_url}}">
-          mi GitHub</a>).
-          También he contribuido en algunos proyectos open-source como
+          I really enjoy the field of programming language design.
+          I always find it exciting to learn new ones. So it is, that once
+          I designed one of my own, called {{charon_logo}} Charon (You can find
+          it in <a href="{{charon_url}}">my GitHub </a>).
+          I have also contributed to some open-source projects such as
           <a href="{{antlr_url}}">
             AntLR4.
           </a>
     languages:
-      title: Idiomas
+      title: Languages
       text: |
-        <b>Catalán</b> y <b>Castellano nativos</b>. <b>Inglés fluido</b>.
-        ¡Ahora me estoy atreviendo con el Japonés y el Alemán!
+        <b>Native Catalan</b> and <b>Spanish</b>. <b>Fluent English</b>.
+        <br>
+        Now I'm trying my hand at German and Japanese!
     other_tools:
-      title: Otras herramientas
+      title: Other tools
       engines: |
-        Estoy familiarizado con motóres gráficos como Defold, Unreal Engine 4,
-        Godot y Löve2D.
+        I am familiar with graphics engines like Defold, Unreal Engine 4,
+        Godot and Löve2D.
       software: |
-        También he utilizado programas de dibujo como Aseprite y Krita o
-        programas tipo CAD como AutoCAD y SolidWorks.
+        I have also used drawing programs like Aseprite and Krita or
+        CAD-like programs such as AutoCAD and SolidWorks. 
