@@ -68,10 +68,15 @@ definition:
       date: 2013-2015
       mark: Notable
       loc: Ins Vilanova del Vallès
+    emt:
+      title: Medium degree of electrical systems & automation
+      date: 2011-2013
+      mark: Notable
+      loc: Institut Escola Municipal de Treball
   work:
     kantar:
       info:
-        time: 2020
+        time: 2019-2020
         title: Kantar Worldpanel - St. Cugat
       text: |
         Full stack development with ReactJS, .NET Core and MVC.
@@ -80,7 +85,7 @@ definition:
         Data processing scripts with ClojureScript.
     catalog_player:
       info:
-        time: 2018
+        time: 2017-2018
         title: Catalog Player - Granollers
       text: |
         Full stack developer with hybrid technologies, embedded systems,
@@ -88,7 +93,7 @@ definition:
         Sage UK, front end development with ReactJS.
     mobivention:
       info:
-        time: 2017
+        time: 2016
         title: Mobivention - Köln (Erasmus)
       text: |
         Development of hybrid applications for mobile platforms, with Cordova
