@@ -56,7 +56,7 @@ definition:
     tokio:
       title: Videogame development course
       date: 2020
-      mark: Courses
+      mark: Coursing
       loc: Tokio School
     granollers:
       title: Higher degree of cross-platform application development
@@ -87,7 +87,7 @@ definition:
         time: 2019-2020
         title: Kantar Worldpanel - St. Cugat
       text: |
-        Full stack development with ReactJS, .NET Core and MVC.
+        Full stack analyst with ReactJS, .NET Core and MVC.
         I work with Azure functions and Azure DevOps.
         Servers for remote execution of scripts in R.
         Data processing scripts with ClojureScript.
@@ -96,7 +96,7 @@ definition:
         time: 2017-2018
         title: Catalog Player - Granollers
       text: |
-        Full stack developer with hybrid technologies, embedded systems,
+        Full stack analyst and developer with hybrid technologies, embedded systems,
         database server maintenance, team management for a collaboration with
         Sage UK, front end development with ReactJS.
     mobivention:
@@ -147,7 +147,7 @@ definition:
       text: |
         <b>Native Catalan</b> and <b>Spanish</b>. <b>Fluent English</b>.
         <br>
-        I'm Currently trying my hand at Japanese!
+        I'm currently trying my hand at Japanese!
     other_tools:
       title: Other tools
       engines: |
