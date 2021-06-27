@@ -69,9 +69,17 @@ definition:
       mark: Notable
       loc: Ins Vilanova del Vallès
   work:
+    dekalabs:
+      info:
+        time: Actual
+        title: Dekalabs - Remoto
+      text: |
+        Desarollador backend de servicios, usando nodeJS, Typescript
+        y Strapi para el contenido. Uso de RabbitMQ para administrar las tareas
+        de los servicios. Pruebas automáticas con Jest.
     kantar:
       info:
-        time: 2020
+        time: 2019-2020
         title: Kantar Worldpanel - St. Cugat
       text: |
         Desarrollo full stack con ReactJS, .NET Core y MVC.
@@ -80,7 +88,7 @@ definition:
         Scripts de procesado de datos con ClojureScript.
     catalog_player:
       info:
-        time: 2018
+        time: 2017-2018
         title: Catalog Player - Granollers
       text: |
         Desarrollador full stack con tecnologías híbridas, sistemas
@@ -88,7 +96,7 @@ definition:
         de equipo colaborando con Sage UK, desarrollo front end con ReactJS.
     mobivention:
       info:
-        time: 2017
+        time: 2016
         title: Mobivention - Köln (Erasmus)
       text: |
         Desarrollo de aplicaciones híbridas para movil, con Cordova e Ionic.
@@ -134,7 +142,7 @@ definition:
       title: Idiomas
       text: |
         <b>Catalán</b> y <b>Castellano nativos</b>. <b>Inglés fluido</b>.
-        ¡Ahora me estoy atreviendo con el Japonés y el Alemán!
+        ¡Ahora me estoy atreviendo con el Japonés!
     other_tools:
       title: Otras herramientas
       engines: |

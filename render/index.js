@@ -19,7 +19,7 @@ router.get('/:lang', ctx => {
   setLanguage(lang);
   console.log(`Compiling for language ${lang}...`)
   ctx.body = cv();
-  require('fs').writeFileSync('pages/preview.html', cv);
+  require('fs').writeFileSync('pages/preview.html', ctx.body);
 });
 app.use(router.routes());
 
@@ -43,8 +43,8 @@ async function main() {
       path: `cv-Pablo-Blanco-Celdrán-${lang}.pdf`,
       format: `A4`,
       margin: {
-        top: `0px`,
-        bottom: `0px`,
+        top: `10px`,
+        bottom: `10px`,
         left: `0px`,
         right: `0px`
       },

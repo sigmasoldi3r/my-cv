@@ -2,7 +2,7 @@ const { document } = require("./components");
 const html = require('./html');
 const { header, about } = require("./parts");
 const { Icon, fab } = require('./Icon');
-const { t, translate } = require("./loc");
+const { c, t, translate } = require("./loc");
 
 const TimeEntry = pos => (props, content) => html`
 <dd class="pos-${pos} clearfix">
@@ -87,6 +87,9 @@ module.exports = () => document(html`
       <div class="timeline">
         <dl>
         <!--<dt>2020</dt>-->
+        ${TimeR(t`work.dekalabs.info`, html`
+          <p>${t`work.dekalabs.text`}</p>
+        `)}
         ${TimeL(t`work.kantar.info`, html`
           <p>${t`work.kantar.text`}</p>
         `)}
@@ -106,7 +109,7 @@ module.exports = () => document(html`
       </div>
     </section>
     <section class="page-margin">
-      <h3>${t`about.title`}</h3>
+      ${c`<h3>${t`about.title`}</h3>`}
       <h5>${t`about.hobbies.title`}</h5>
       <p>
         ${t`about.hobbies.p.first`}

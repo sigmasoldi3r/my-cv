@@ -74,6 +74,14 @@ definition:
       mark: Notable
       loc: Institut Escola Municipal de Treball
   work:
+    dekalabs:
+      info:
+        time: Currently
+        title: Dekalabs - Remote
+      text: |
+        Backend developer of CMS and microservices, with NodeJS, Typescript and
+        Strapi for the content. Management of services tasks with RabbitMQ.
+        Automated testing with Jest.
     kantar:
       info:
         time: 2019-2020
@@ -104,7 +112,7 @@ definition:
         time: 2016
         title: Veronica, Electrical Supply Management
       text: |
-        Development and implementation of business management software (ERP),
+        Development of business management software (ERP),
         in python. Database model design.
     linde_wiemann:
       info:
@@ -119,19 +127,18 @@ definition:
       title: Hobbies
       p:
         first: |
-          I like to go mountain-hiking, play video games with my friends, or
-          enjoy a good story in single player. I love watching
-          <i>anime</i> and creative drawing.
+          I like to go mountain-hiking, play video games with my friends.
+          I love watching <i>anime</i> and creative drawing.
         second: |
           Another of my hobbies is 3D printing and homemade electronics,
           I enjoy doing small DIY projects, while programming
           Arduino family boards or ESP ones.
         third: |
-          I really enjoy the field of programming language design.
-          I always find it exciting to learn new ones. So it is, that once
-          I designed one of my own, called {{charon_logo}} Charon (You can find
-          it in <a href="{{charon_url}}">my GitHub </a>).
-          I have also contributed to some open-source projects such as
+          I really enjoy the field of programming language design, always
+          excited about learning new ones. So it is, that once I designed one of
+          my own, called {{charon_logo}} Charon (You can find it in
+          <a href="{{charon_url}}">my GitHub </a>). I have also contributed to
+          some open-source projects such as
           <a href="{{antlr_url}}">
             AntLR4.
           </a>
@@ -140,7 +147,7 @@ definition:
       text: |
         <b>Native Catalan</b> and <b>Spanish</b>. <b>Fluent English</b>.
         <br>
-        I'm Currently trying my hand at German and Japanese!
+        I'm Currently trying my hand at Japanese!
     other_tools:
       title: Other tools
       engines: |

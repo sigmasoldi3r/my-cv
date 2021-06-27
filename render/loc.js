@@ -48,4 +48,8 @@ function t(...args) {
   return translate(String.raw(...args));
 }
 
-module.exports = { translate, setLanguage, load, t }
+function c() {
+  return ``;
+}
+
+module.exports = { c, comment: c, translate, setLanguage, load, t }

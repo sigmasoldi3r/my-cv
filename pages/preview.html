@@ -1,6 +1,8 @@
-() => document(html`
+<!doctype html>
+<html>
+  
   <head>
-    <title>${t`author.name`}</title>
+    <title>Pablo Blanco Celdrán</title>
     <link rel="stylesheet" href="css/boot.big.css">
     <link rel="stylesheet" href="css/site.big.css">
     <link rel="stylesheet" href="css/theme.css">
@@ -8,106 +10,287 @@
   </head>
   <body>
     <section class="headline">
-      ${header()}
+      
+<nav>
+  <div class="container-fluid">
+    <div class="navbar-header avatar-container">
+      <div class="avatar-image"></div>
+      <a class="navbar-brand name-holder" href="#">
+        Pablo Blanco Celdrán
+      </a>
+    </div>
+  </div>
+</nav>
     </section>
     <section class="about">
-      ${about()}
+      
+<div class="popover bottom">
+  <div class="arrow"></div>
+  <!--
+  <h3 class="popover-title">Sobre mí</h3>
+  -->
+  <div class="popover-content">
+    <p>
+      Desarrollador multiplataforma con tecnologías modernas como React.
+Desarrollo con NodeJS, addons nativos y estándares modernos como C++14.
+Siempre con ganas de aprender, racional y curioso.
+
+    </p>
+    <p>
+      Me gusta hacer las cosas bien y pongo el esfuerzo necesario para
+conseguirlo.
+Me relaciono bien con personas muy diferentes y me adapto fácilmente
+a los cambios y situaciones. Capaz de organizar y liderar proyectos.
+
+    </p>
+    <span class="label label-primary"><i class="fas fa-car"></i> Coche propio</span><span class="label label-primary"><i class="fas fa-volume-up"></i> Inglés fluido</span><span class="label label-success"><i class="fas fa-list"></i> Responsable</span><span class="label label-success"><i class="fas fa-bolt"></i> Emprendedor</span><span class="label label-success"><i class="fas fa-fist-raised"></i> Entusiasta</span><span class="label label-success"><i class="fas fa-plus"></i> Positivo</span><span class="label label-info"><i class="fas fa-wrench"></i> Trabajo en equipo</span>
+  </div>
+</div>
+<div class="user-data">
+  
+<div class="input-group">
+  <span class="input-group-addon addon-fixture">
+    <i class="fas fa-home"></i> Domicilio
+  </span>
+  <input class="form-control" type="text" value="C/ Dotze de febrer, 29 Vilanova del Vallès (Barcelona)">
+</div>
+
+<div class="input-group">
+  <span class="input-group-addon addon-fixture">
+    <i class="fas fa-phone"></i> Teléfono
+  </span>
+  <input class="form-control" type="text" value="693210403">
+</div>
+
+<div class="input-group">
+  <span class="input-group-addon addon-fixture">
+    <i class="fas fa-envelope"></i> Correo
+  </span>
+  <input class="form-control" type="text" value="pablobc.1995@gmail.com">
+</div>
+
+<div class="input-group">
+  <span class="input-group-addon addon-fixture">
+    <i class="fab fa-github"></i> Github
+  </span>
+  <input class="form-control" type="text" value="https://github.com/sigmasoldi3r">
+</div>
+
+</div>
+
     </section>
     <section class="formation">
       <div class="panel panel-success">
         <div class="panel-heading">
-          <h2 class="panel-title">${t`titles.formation`}</h2>
+          <h2 class="panel-title">Formación</h2>
         </div>
         <ul class="list-group">
-          ${[
-    t`formation.tokio`,
-    t`formation.granollers`,
-    t`formation.vilanova`
-  ].map(formation).join('\n')}
+          
+<div class="panel-body">
+  <b>2020 Curso de desarrollo de videojuegos (Cursando)</b><br>
+  <span><i class="fas fa-map-marker-alt"></i> Tokio School</span>
+</div>
+
+
+<li class="list-group-item">
+  <b>2015-2017 Grado superior de desarrollo de aplicaciones multiplataforma (Matrícula de honor)</b><br>
+  <span><i class="fas fa-map-marker-alt"></i> Ins Carles Vallbona, Granollers</span>
+</li>
+
+
+<li class="list-group-item">
+  <b>2013-2015 Bachillerato tecnológico (Notable)</b><br>
+  <span><i class="fas fa-map-marker-alt"></i> Ins Vilanova del Vallès</span>
+</li>
+
           <li class="list-group-item">
-            <b>${t`titles.additional`}</b>
+            <b>Conocimientos adicionales</b>
             <br>
             <div class="additional-knowledge">
-              <span>${IconImage`assets/nodejs-icon-logo-png-transparent.png`} Node</span>
-              <span>${Icon`npm${fab}`} NPM</span>
-              <span>${IconImage`assets/React_logo_logotype_emblem.png`} React</span>
-              <span>${Icon`less${fab}`} Less</span>
-              <span>${Icon`sass${fab}`} Sass</span>
-              <span>${Icon`css3${fab}`} CSS3</span>
-              <span>${IconImage`assets/scala-spiral.png`} Scala</span>
-              <span>${IconImage`assets/Kotlin_Icon.svg.png`} Kotlin</span>
-              <span>${IconImage`assets/clojure-logo-120b.png`} Clojure</span>
-              <span>${IconImage`assets/200px-ISO_C++_Logo.svg.png`} C/C++14</span>
-              <span>${IconImage`assets/800px-OpenGL_logo_(Nov14).svg.png`} OpenGL</span>
-              <span>${IconImage`assets/1200px-Typescript_logo_2020.svg.png`} Typescript</span>
-              <span>${IconImage`assets/lua-logo.gif`} Lua</span>
-              <span>${IconImage`assets/wasm.jpg`} WASM</span>
-              <span>${IconImage`assets/SQLite-Logo-500x313.png`} SQLite</span>
-              <span>${IconImage`assets/blender-logo.jpg`} Blender</span>
-              <span>${IconImage`assets/unity-logo.jpg`} Unity3D</span>
-              <span>${IconImage`assets/150px-C_Sharp_wordmark.svg.png`} C#</span>
+              <span><img class="image-icon" src="assets/nodejs-icon-logo-png-transparent.png" alt="assets/nodejs-icon-logo-png-transparent.png"> Node</span>
+              <span><i class="fab fa-npm"></i> NPM</span>
+              <span><img class="image-icon" src="assets/React_logo_logotype_emblem.png" alt="assets/React_logo_logotype_emblem.png"> React</span>
+              <span><i class="fab fa-less"></i> Less</span>
+              <span><i class="fab fa-sass"></i> Sass</span>
+              <span><i class="fab fa-css3"></i> CSS3</span>
+              <span><img class="image-icon" src="assets/scala-spiral.png" alt="assets/scala-spiral.png"> Scala</span>
+              <span><img class="image-icon" src="assets/Kotlin_Icon.svg.png" alt="assets/Kotlin_Icon.svg.png"> Kotlin</span>
+              <span><img class="image-icon" src="assets/clojure-logo-120b.png" alt="assets/clojure-logo-120b.png"> Clojure</span>
+              <span><img class="image-icon" src="assets/200px-ISO_C++_Logo.svg.png" alt="assets/200px-ISO_C++_Logo.svg.png"> C/C++14</span>
+              <span><img class="image-icon" src="assets/800px-OpenGL_logo_(Nov14).svg.png" alt="assets/800px-OpenGL_logo_(Nov14).svg.png"> OpenGL</span>
+              <span><img class="image-icon" src="assets/1200px-Typescript_logo_2020.svg.png" alt="assets/1200px-Typescript_logo_2020.svg.png"> Typescript</span>
+              <span><img class="image-icon" src="assets/lua-logo.gif" alt="assets/lua-logo.gif"> Lua</span>
+              <span><img class="image-icon" src="assets/wasm.jpg" alt="assets/wasm.jpg"> WASM</span>
+              <span><img class="image-icon" src="assets/SQLite-Logo-500x313.png" alt="assets/SQLite-Logo-500x313.png"> SQLite</span>
+              <span><img class="image-icon" src="assets/blender-logo.jpg" alt="assets/blender-logo.jpg"> Blender</span>
+              <span><img class="image-icon" src="assets/unity-logo.jpg" alt="assets/unity-logo.jpg"> Unity3D</span>
+              <span><img class="image-icon" src="assets/150px-C_Sharp_wordmark.svg.png" alt="assets/150px-C_Sharp_wordmark.svg.png"> C#</span>
             </div>
           </li>
         </ul>
       </div>
     </section>
     <section>
-      <h4>${t`titles.experience`}</h4>
+      <h4>Experiencia laboral</h4>
       <div class="timeline">
         <dl>
         <!--<dt>2020</dt>-->
-        ${TimeL(t`work.kantar.info`, html`
-          <p>${t`work.kantar.text`}</p>
-        `)}
-        ${TimeR(t`work.catalog_player.info`, html`
-          <p>${t`work.catalog_player.text`}</p>
-        `)}
-        ${TimeL(t`work.mobivention.info`, html`
-          <p>${t`work.mobivention.text`}</p>
-        `)}
-        ${TimeR(t`work.veronica.info`, html`
-          <p>${t`work.veronica.text`}</p>
-        `)}
-        ${TimeL(t`work.linde_wiemann.info`, html`
-          <p>${t`work.linde_wiemann.text`}</p>
-        `)}
+        
+<dd class="pos-right clearfix">
+  <div class="circ"></div>
+  <div class="time">Actual</div>
+  <div class="events">
+    <div class="events-body">
+      <h4 class="events-heading">Dekalabs - Remoto</h4>
+      
+          <p>Desarollador backend de servicios, usando nodeJS, Typescript
+y Strapi para el contenido. Uso de RabbitMQ para administrar las tareas
+de los servicios. Pruebas automáticas con Jest.
+</p>
+        
+    </div>
+  </div>
+</dd>
+
+        
+<dd class="pos-left clearfix">
+  <div class="circ"></div>
+  <div class="time">2019-2020</div>
+  <div class="events">
+    <div class="events-body">
+      <h4 class="events-heading">Kantar Worldpanel - St. Cugat</h4>
+      
+          <p>Desarrollo full stack con ReactJS, .NET Core y MVC.
+Trabajo con Azure functions y Azure DevOps.
+Servidores de ejecución remota de scripts en R.
+Scripts de procesado de datos con ClojureScript.
+</p>
+        
+    </div>
+  </div>
+</dd>
+
+        
+<dd class="pos-right clearfix">
+  <div class="circ"></div>
+  <div class="time">2017-2018</div>
+  <div class="events">
+    <div class="events-body">
+      <h4 class="events-heading">Catalog Player - Granollers</h4>
+      
+          <p>Desarrollador full stack con tecnologías híbridas, sistemas
+integrados, mantenimiento de servidores de bases de datos, dirección
+de equipo colaborando con Sage UK, desarrollo front end con ReactJS.
+</p>
+        
+    </div>
+  </div>
+</dd>
+
+        
+<dd class="pos-left clearfix">
+  <div class="circ"></div>
+  <div class="time">2016</div>
+  <div class="events">
+    <div class="events-body">
+      <h4 class="events-heading">Mobivention - Köln (Erasmus)</h4>
+      
+          <p>Desarrollo de aplicaciones híbridas para movil, con Cordova e Ionic.
+Desarrollo de servidores NodeJS para consultar APIs de puntuación de
+appstores móviles.
+</p>
+        
+    </div>
+  </div>
+</dd>
+
+        
+<dd class="pos-right clearfix">
+  <div class="circ"></div>
+  <div class="time">2016</div>
+  <div class="events">
+    <div class="events-body">
+      <h4 class="events-heading">Verónica, gestión de suministros eléctricos</h4>
+      
+          <p>Desarrollo e implantación de software de gestión empresarial (ERP).
+</p>
+        
+    </div>
+  </div>
+</dd>
+
+        
+<dd class="pos-left clearfix">
+  <div class="circ"></div>
+  <div class="time">2014</div>
+  <div class="events">
+    <div class="events-body">
+      <h4 class="events-heading">Linde & Wiemann - La Garriga</h4>
+      
+          <p>Ayudante de técnico de mantenimiento. Reparación de sensores,
+sistemas de control eléctricos & hidro-neumáticos.
+</p>
+        
+    </div>
+  </div>
+</dd>
+
       </dl>
       </div>
     </section>
     <section class="page-margin">
-      <h3>${t`about.title`}</h3>
-      <h5>${t`about.hobbies.title`}</h5>
+      
+      <h5>Aficiones</h5>
       <p>
-        ${t`about.hobbies.p.first`}
+        Me gusta hacer senderismo, jugar a videojuegos con mis amigos, o
+disfrutar de una buena historia en un jugador. Me encanta ver
+<i>anime</i> y el dibujo creativo.
+
       </p>
       <p>
-        ${t`about.hobbies.p.second`}
+        Otra de mis aficiones es la impresión 3D y la
+electrónica, me divierto con pequeños proyectos, programando placas de
+la família Arduino o ESP.
+
       </p>
       <p>
-        ${translate(`about.hobbies.p.third`, {
-    charon_logo: IconImage`assets/charon.png`,
-    antlr_url: 'https://github.com/antlr/antlr4/blob/478e46409e82997aa31fdce8c9ca5bbd5e887e17/contributors.txt#L271',
-    charon_url: 'https://github.com/sigmasoldi3r/charon-lang'
-  })}
+        Disfruto mucho en el campo de diseño de lenguajes de programación.
+Siempre encuentro emocionante aprender uno nuevo, tal es así que una vez
+diseñé uno propio, llamado <img class="image-icon" src="assets/charon.png" alt="assets/charon.png"> Charon (Lo
+podéis encontrar en <a href="https://github.com/sigmasoldi3r/charon-lang">
+mi GitHub</a>).
+También he contribuido en algunos proyectos open-source como
+<a href="https://github.com/antlr/antlr4/blob/478e46409e82997aa31fdce8c9ca5bbd5e887e17/contributors.txt#L271">
+  AntLR4.
+</a>
+
       </p>
-      <h5>${t`about.languages.title`}</h5>
+      <h5>Idiomas</h5>
       <p>
-        ${t`about.languages.text`}
+        <b>Catalán</b> y <b>Castellano nativos</b>. <b>Inglés fluido</b>.
+¡Ahora me estoy atreviendo con el Japonés!
+
       </p>
-      <h3>${t`about.other_tools.title`}</h3>
+      <h3>Otras herramientas</h3>
       <p>
-        ${t`about.other_tools.engines`}
+        Estoy familiarizado con motóres gráficos como Defold, Unreal Engine 4,
+Godot y Löve2D.
+
       </p>
       <p>
-        ${t`about.other_tools.software`}
+        También he utilizado programas de dibujo como Aseprite y Krita o
+programas tipo CAD como AutoCAD y SolidWorks.
+
       </p>
     </section>
     <div id="github-ribbon">
       <span>
         <a href="https://github.com/sigmasoldi3r/my-cv">
-          ${t`misc.source_notice`}
+          ¡Puedes ver el código fuente <br> de mi currículum en mi github!
+
         </a>
       </span>
     </div>
   </body>
-`)
+
+</html>
