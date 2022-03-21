@@ -37,7 +37,7 @@ definition:
     data:
       - icon: home
         title: Address
-        text: C / Dotze de febrer, 29 Vilanova del Vallès (Barcelona)
+        text: C/ Dotze de febrer, 29 Vilanova del Vallès (Barcelona)
       - icon: phone
         title: Phone
         text: 693210403
@@ -55,8 +55,8 @@ definition:
   formation:
     tokio:
       title: Videogame development course
-      date: 2020
-      mark: Coursing
+      date: 2020-2021
+      mark: ''
       loc: Tokio School
     granollers:
       title: Higher degree of cross-platform application development
@@ -79,9 +79,9 @@ definition:
         time: Currently
         title: Dekalabs - Remote
       text: |
-        Backend developer of CMS and microservices, with NodeJS, Typescript and
-        Strapi for the content. Management of services tasks with RabbitMQ.
-        Automated testing with Jest.
+        Fullstack developer using Typescript for ReactJS and NodeJS.
+        Test design, program creation using the Algorand's blockchain.
+        Internal tooling creation, along with NodeJS's native addons.
     kantar:
       info:
         time: 2019-2020

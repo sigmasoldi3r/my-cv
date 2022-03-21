@@ -55,8 +55,8 @@ definition:
   formation:
     tokio:
       title: Curso de desarrollo de videojuegos
-      date: 2020
-      mark: Cursando
+      date: 2020-2021
+      mark: ''
       loc: Tokio School
     granollers:
       title: Grado superior de desarrollo de aplicaciones multiplataforma
@@ -74,9 +74,10 @@ definition:
         time: Actual
         title: Dekalabs - Remoto
       text: |
-        Desarollador backend de servicios, usando nodeJS, Typescript
-        y Strapi para el contenido. Uso de RabbitMQ para administrar las tareas
-        de los servicios. Pruebas automáticas con Jest.
+        Desarrollador full stack con Typescript para ReactJS y NodeJS.
+        Diseño de pruebas, creación de programas con la
+        blockchain de Algorand, creación de herramientas
+        para mejorar la producción y addons nativos para NodeJS.
     kantar:
       info:
         time: 2019-2020
