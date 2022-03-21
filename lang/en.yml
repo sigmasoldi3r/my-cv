@@ -56,7 +56,6 @@ definition:
     tokio:
       title: Videogame development course
       date: 2020-2021
-      mark: ''
       loc: Tokio School
     granollers:
       title: Higher degree of cross-platform application development

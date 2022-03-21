@@ -20,9 +20,12 @@ const TimeEntry = pos => (props, content) => html`
 const TimeL = TimeEntry('left')
 const TimeR = TimeEntry('right')
 
+/** @param {string|undefined} mark */
+const wrapMark = mark => mark?.length ? `(${mark})` : ''
+
 const formation = ({ date, mark, title, loc }, i) => html`
 ${i === 0 ? '<div class="panel-body">' : '<li class="list-group-item">'}
-  <b>${date} ${title} (${mark})</b><br>
+  <b>${date} ${title} ${wrapMark(mark)}</b><br>
   <span>${Icon`map-marker-alt`} ${loc}</span>
 ${i === 0 ? '</div>' : '</li>'}
 `;
