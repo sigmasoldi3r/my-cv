@@ -3,15 +3,18 @@ const Koa = require('koa');
 const Router = require('@koa/router');
 const static = require('koa-static');
 const { load, setLanguage } = require('./loc');
+const { join } = require('path')
 
 load('lang/es.yml');
 load('lang/en.yml');
 
+const ROOT = 'docs'
+
 // This enables us to serve the page at github pages!
-const HTML_OUTPUT_FILE = 'pages/index.html'
+const HTML_OUTPUT_FILE = join(ROOT, 'index.html')
 
 const app = new Koa();
-app.use(static('pages'));
+app.use(static(ROOT));
 const serve = () => new Promise(r => app.listen(3000, r));
 const log = console.log.bind(console);
 const HOST = 'http://localhost:3000';
@@ -20,7 +23,7 @@ const cv = require('./cv');
 router.get('/:lang', ctx => {
   const lang = ctx.params.lang;
   setLanguage(lang);
-  console.log(`Compiling for language ${lang}...`)
+  log(`Compiling for language ${lang}...`)
   ctx.body = cv();
   require('fs').writeFileSync(HTML_OUTPUT_FILE, ctx.body);
 });
