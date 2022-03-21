@@ -7,6 +7,9 @@ const { load, setLanguage } = require('./loc');
 load('lang/es.yml');
 load('lang/en.yml');
 
+// This enables us to serve the page at github pages!
+const HTML_OUTPUT_FILE = 'pages/index.html'
+
 const app = new Koa();
 app.use(static('pages'));
 const serve = () => new Promise(r => app.listen(3000, r));
@@ -19,7 +22,7 @@ router.get('/:lang', ctx => {
   setLanguage(lang);
   console.log(`Compiling for language ${lang}...`)
   ctx.body = cv();
-  require('fs').writeFileSync('pages/preview.html', ctx.body);
+  require('fs').writeFileSync(HTML_OUTPUT_FILE, ctx.body);
 });
 app.use(router.routes());
 
